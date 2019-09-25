@@ -4,7 +4,7 @@ def roll_call_dwarves (dwarves)
     
 end
 
-def summon_captain_planet (veggies, fruits)
+def summon_captain_planet (veggies)
  veggies = ["carrot!", "cucumber!", "pepper!"]
  veggies.map(&:capitalize)
  fruits = ["apple", "banana", "orange"]

@@ -1,6 +1,6 @@
 def roll_call_dwarves (dwarves)
    dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
-  dwarves.each_with_index do 
+  dwarves.each_with_index do |value, index|
   
 end
 

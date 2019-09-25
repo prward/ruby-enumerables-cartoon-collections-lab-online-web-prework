@@ -13,7 +13,7 @@ def summon_captain_planet (veggies)
 end
 
 def long_planeteer_calls
-  
+  calls_long = ["axe", "earth", "wind", "fire"]
 end
 
 def find_the_cheese# code an argument here

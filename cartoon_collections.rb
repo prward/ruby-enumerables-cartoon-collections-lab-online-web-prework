@@ -1,4 +1,4 @@
-def roll_call_dwarves (dwarves)
+def roll_call_dwarves 
    ["Doc", "Dopey", "Bashful", "Grumpy"]
   dwarves.each_with_index(1) {|dwarves, index| p "#index: #dwarves"}
 end

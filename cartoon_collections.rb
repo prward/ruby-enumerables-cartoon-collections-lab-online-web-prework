@@ -1,6 +1,6 @@
 def roll_call_dwarves (dwarves)
   dwarves = ["Dopey", "Bashful", "Grumpy"]
-  dwarves.fetchindex
+  dwarves.fetch(index)
 end
 
 def summon_captain_planet# code an argument here

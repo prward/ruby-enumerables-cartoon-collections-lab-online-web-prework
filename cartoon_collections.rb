@@ -22,7 +22,7 @@ end
 def find_the_cheese(cheese_types)
   cheese_types = ["cheddar", "gouda", "camembert"]
   contains_cheddar = ["banana", "cheddar", "sock"]
-  contains_cheddar.include? {|element| p element}
+  contains_cheddar.include? {|cheese_types| p cheese_types}
   if true 
     return element
   else

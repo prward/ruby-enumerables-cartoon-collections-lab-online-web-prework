@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet (veggies)
  veggies = ["carrot", "cucumber", "pepper"]
- veggies.map!(&:capitalize)
+ veggies.map(&:capitalize)
 end
 
 def long_planeteer_calls# code an argument here

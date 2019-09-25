@@ -20,7 +20,10 @@ def long_planeteer_calls(calls_long)
     return false
   end
   end
-  if calls_long.length
+  if calls_long.all.length <= 4
+    return false
+  else 
+    return true
 end
 
 def find_the_cheese# code an argument here

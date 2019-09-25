@@ -34,7 +34,7 @@ describe "Cartoon Collections" do
     it "capitalizes each element and adds an exclamation mark (test 2)" do
       veggies = ["carrot", "cucumber", "pepper"]
       result = summon_captain_planet(veggies)
-      ["Carrot!", "Cucumber!", "Pepper!"].each { |w| expect(result).to include w }
+     
     end
   end
 

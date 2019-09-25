@@ -28,5 +28,12 @@ def find_the_cheese(cheese_types)
   else
     return nil
   end
+  contains_gouda = ["potato", "gouda", "camembert"]
+  contains_gouda.include? ()
+  if true
+    return "gouda"
+  else
+    return nil
+  end
   
 end

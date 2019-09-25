@@ -15,6 +15,7 @@ end
 def long_planeteer_calls(calls_long)
   calls_long = ["axe", "earth", "wind", "fire"]
  calls_long.any? {|word| word.length <= 4}
+ calls_long.all? {|word| word.length <= 4}
  
 end
 

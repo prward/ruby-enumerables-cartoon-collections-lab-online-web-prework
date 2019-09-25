@@ -14,7 +14,7 @@ end
 
 def long_planeteer_calls(calls_long)
   calls_long = ["axe", "earth", "wind", "fire"]
-  
+  if s.length
 end
 
 def find_the_cheese# code an argument here

@@ -1,5 +1,5 @@
-def roll_call_dwarves 
-   ["Doc", "Dopey", "Bashful", "Grumpy"]
+def roll_call_dwarves ["Doc", "Dopey", "Bashful", "Grumpy"]
+   dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
   dwarves.each_with_index do { |item, index| p "#index :#item" }
 end
   

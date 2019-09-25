@@ -1,6 +1,6 @@
 def roll_call_dwarves (dwarves)
   dwarves = ["Dopey", "Bashful", "Grumpy"]
-  dwarves.each_with_index.to_a
+  dwarves.each_with_index do 
 end
 
 def summon_captain_planet# code an argument here

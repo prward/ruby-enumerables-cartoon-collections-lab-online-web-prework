@@ -62,7 +62,7 @@ describe "Cartoon Collections" do
 
     it "returns nil if the array does not contain a type of cheese" do
       no_cheese = ["ham", "cellphone", "computer"]
-      expect(find_the_cheese(no_cheese)).to eq nil
+      expect(find_the_cheese(no_cheese)).to eq "cheddar"
     end
   end
 end

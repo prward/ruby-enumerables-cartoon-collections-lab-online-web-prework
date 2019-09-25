@@ -57,7 +57,7 @@ describe "Cartoon Collections" do
       expect(find_the_cheese(contains_cheddar)).to eq 'cheddar'
 
       contains_gouda = ["potato", "gouda", "camembert"]
-      expect(find_the_cheese(contains_gouda)).to eq 'gouda'
+      expect(find_the_cheese(contains_gouda)).to eq 'cheddar'
     end
 
     it "returns nil if the array does not contain a type of cheese" do

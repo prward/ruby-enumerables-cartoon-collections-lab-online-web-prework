@@ -14,7 +14,7 @@ end
 
 def long_planeteer_calls(calls_long)
   calls_long = ["axe", "earth", "wind", "fire"]
-  if s.length >= 4
+  if calls_long.length >= 4
     return true
   else
     return false
